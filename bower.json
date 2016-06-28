@@ -1,0 +1,27 @@
+{
+  "name": "moekee",
+  "description": "moekee",
+  "main": "website.js",
+  "keywords": [
+    "moekee"
+  ],
+  "authors": [
+    "rachel"
+  ],
+  "license": "MIT",
+  "homepage": "index.jade",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "fullpage.js": "fullpage#^2.8.1",
+    "less": "^2.7.1"
+  }
+}

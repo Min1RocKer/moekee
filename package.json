@@ -1,0 +1,22 @@
+{
+  "name": "moekee",
+  "version": "1.0.0",
+  "description": "moekee",
+  "main": "website.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "jade": "^1.11.0",
+    "bower": "^1.7.9",
+    "express": "^4.13.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "moekee"
+  ],
+  "author": "rachel",
+  "license": "ISC"
+}
