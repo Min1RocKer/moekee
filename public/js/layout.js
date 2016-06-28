@@ -12,7 +12,7 @@
 				},1000,'swing');
             }
             if(anchorLink == 'secondPage'){
-                $('.jjLogo img').animate({
+                $('.jjLogo .jjImg').animate({
 					top:'-60px'
 				},500,'linear');
             }
@@ -20,7 +20,7 @@
         onLeave: function(index, nextIndex, direction){
             //it won't scroll if the destination is the 3rd section
             if(nextIndex == 1){
-                $('.jjLogo img').animate({
+                $('.jjLogo .jjImg').animate({
 					top:'-100px'
 				},500,'linear');
             }
@@ -30,7 +30,7 @@
 				},1000,'swing');
             }
             if(nextIndex == 3){
-                $('.jjLogo img').animate({
+                $('.jjLogo .jjImg').animate({
 					top:'-100px'
 				},500,'linear');
             }
@@ -40,7 +40,7 @@
 
             //first slide of the second section
             if(anchorLink == 'secondPage' && slideIndex == 0){
-                $('.jjLogo img').animate({
+                $('.jjLogo .jjImg').animate({
 					top:'-60px'
 				},500,'linear');
             }
@@ -56,7 +56,7 @@
 
             //leaving the first slide of the 2nd Section to the right
             if(index == 2 && slideIndex == 0){
-                $('.jjLogo img').animate({
+                $('.jjLogo .jjImg').animate({
 					top:'-100px'
 				},500,'linear');
             }
@@ -75,11 +75,11 @@
 	$(document).on('click', '#moveRight', function(){
   		$.fn.fullpage.moveSlideLeft();
 	});
-    //Slide 自动轮播
+    /*//Slide 自动轮播
     var t;
     function autoPlay(){
         $.fn.fullpage.moveSlideRight();
         t=setTimeout(autoPlay,5000);
     }
-    setInterval(autoPlay(),5000);
+    setInterval(autoPlay(),5000);*/
 })()
