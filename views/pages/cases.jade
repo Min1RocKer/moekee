@@ -2,14 +2,12 @@ extends ../layout
 block content
 	include ../includes/header
 	block article
-		.success_banner
-			.banner_title_container
-				.banner_title
-					img(src='../images/banner_title.png')
-		.success_team
-			.success_teammember
-		.success_position
-	include ../includes/foot
+		#fullpage
+			.section(data-anchor='firstPage')
+				.banner
+					.banner_title
+						img(src='../images/banner_title.png')
+				include ../includes/footer
 	script(type="text/javascript" src="/js/layout.js")
 	script(type="text/javascript").
 		$(document).ready(function(){

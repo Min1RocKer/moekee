@@ -1,5 +1,6 @@
 ///////////////////////////////////////////////////////////////
-
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
 /* 重置&默认(reset&base)(tags) */
 *[hidefocus], input, textarea, a {
 	outline: none;
@@ -63,10 +64,14 @@ button {
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0)
 }
 ////////////////////////////////////////////////////////////////
-
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
 /* 布局(grids)(.g-) */
-
-/* 页面 */
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+/* 首页页面 */
 .nav {
 	z-index: 2;
 	position: fixed;
@@ -842,17 +847,12 @@ button {
 		}
 	}
 	.bk {
-		position: relative;
-		top: 12%;
-		width: 100%;
-		height: 293px;
-		background: url('../images/partner_bk.png') no-repeat;
-		z-index: 1;
+		display: none;
 	}
 }
 .footer {
 	position: relative;
-	top: -140px;
+	top: 0;
 	left: 0;
 	width: 100%;
 	height: 20%;
@@ -950,7 +950,7 @@ button {
 		top:10%;
 		left: 0;
 		margin: 0 auto;
-		width: 100%;
+		width: 90%;
 		height: 36%;
 		ul{
 			width: 50%;
@@ -960,7 +960,7 @@ button {
 				top: 0;
 				left: 0;
 				display: inline-block;
-				width: 180px;
+				width: 90%;
 				height: 150px;
 				background-color: #f5f5f5;
 				margin: 5px;
@@ -994,7 +994,7 @@ button {
 					label{
 						position: relative;
 						top: 0px;
-						left: 30%;
+						left: 18%;
 						display: inline-block;
 						width: 50px;
 						height: 19px;
@@ -1012,3 +1012,342 @@ button {
 	}
 }
 }
+/*首页布局结束*/
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+.foot {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	z-index: 2;
+	background-color: #283957;
+	color: #919090;
+	text-align: center;
+	font-size: 16px;
+	ul {
+		position: relative;
+		top: 35px;
+		width: 1000px;
+		height: 20px;
+		margin: 0 auto;
+
+		li {
+			position: relative;
+			top: 0;
+			display: inline-block;
+			height: 20px;
+			width: 33%;
+			color: #ffffff;
+			text-align: left;
+			line-height: 20px;
+		}
+		img {
+			padding-right: 10px;
+		}
+	}
+	.content {
+		position: relative;
+		width: 1000px;
+		top: 10px;
+		margin: 0 auto;
+		text-align: left;
+
+		.phone {
+			font-size: 24px;
+			color: #ffffff;
+			display: inline-block;
+			width: 33%;
+			position: relative;
+			top: 55px;
+		}
+		.addr {
+			font-size: 14px;
+			color: #ffffff;
+			display: inline-block;
+			width: 33%;
+			position: relative;
+			top: 55px;
+		}
+		.email {
+			font-size: 24px;
+			color: #ffffff;
+			display: inline-block;
+			width: 33%;
+			position: relative;
+			top: 55px;
+		}
+	}
+	.copy {
+		display: inline-block;
+		text-align: center;
+		width: 1200px;
+		color: #ffffff;
+		position: relative;
+		top: 90px;
+		padding-left: 20px;
+	}
+}
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+/*关于我们页面布局开始*/
+.about_banner{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	.banner_title_container{
+		position: relative;
+		width: 1200px;
+		height: 100%;
+		margin:0 auto;
+		.banner_title{
+			position: relative;
+			top: 265px;
+			left: 50px;
+			float: left;
+			margin: 0 auto;
+			width: 719px;
+			height: 160px;
+			background-color: #000;
+		}
+	}
+}
+.about_company{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #f5f5f5;
+	.about_company_container{
+		position: relative;
+		width: 1200px;
+		height: 100%;
+		margin:0 auto;
+		.about_conpanyBk{
+			position: relative;
+			top: 20%;
+			left: 10%;
+			width: 240px;
+			height: 350px;
+			border:5px solid #FFCC00;
+		}
+		.about_companyIntr{
+			position: relative;
+			top: -40%;
+			left: 7%;
+			width: 85%;
+			height: 300px;
+			background-color: #3bbaf5;
+			.about_companyIntrImg{
+				position: relative;
+				display: inline-block;
+				top: 20px;
+				left: 20px;
+				width: 280px;
+				height: 260px;
+				background-color: #000;
+			}
+			.about_companyIntrText{
+				position: relative;
+				display: inline-block;
+				top: -10px;
+				left: 5%;
+				width: 600px;
+				height: 220px;
+				.title{
+					position: relative;
+					font-size: 18px;
+					color:#fff;
+					line-height: 40px;
+				}
+				.text{
+					position: relative;
+					font-size: 14px;
+					color:#fff;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+}
+.about_team{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #fff;
+	.about_teammember{
+
+	}
+}
+.about_position{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #f5f5f5;
+}
+			
+			
+/*关于我们页面布局结束*/
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+/*加入我们页面布局开始*/
+.join_banner{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	.banner_title_container{
+		position: relative;
+		width: 1200px;
+		height: 100%;
+		margin:0 auto;
+		.banner_title{
+			position: relative;
+			top: 265px;
+			left: 50px;
+			float: left;
+			margin: 0 auto;
+			width: 719px;
+			height: 160px;
+			background-color: #000;
+		}
+	}
+}
+.join_team{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #fff;
+	.join_teammember{
+
+	}
+}
+.join_position{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #f5f5f5;
+}
+			
+			
+/*加入我们页面布局结束*/
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+/*成功案例页面布局开始*/
+.success_banner{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	.banner_title_container{
+		position: relative;
+		width: 1200px;
+		height: 100%;
+		margin:0 auto;
+		.banner_title{
+			position: relative;
+			top: 265px;
+			left: 50px;
+			float: left;
+			margin: 0 auto;
+			width: 719px;
+			height: 160px;
+			background-color: #000;
+		}
+	}
+}
+.success_team{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #fff;
+	.success_teammember{
+
+	}
+}
+.success_position{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #f5f5f5;
+}
+			
+			
+/*成功案例页面布局结束*/
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+/*解决方案页面布局开始*/
+.solution_banner{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	.banner_title_container{
+		position: relative;
+		width: 1200px;
+		height: 100%;
+		margin:0 auto;
+		.banner_title{
+			position: relative;
+			top: 265px;
+			left: 50px;
+			float: left;
+			margin: 0 auto;
+			width: 719px;
+			height: 160px;
+			background-color: #000;
+		}
+	}
+}
+.solution_team{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #fff;
+	.success_teammember{
+
+	}
+}
+.solution_position{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	background-color: #f5f5f5;
+}
+			
+			
+/*解决方案页面布局结束*/
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////

@@ -1,0 +1,19 @@
+extends ../layout
+block content
+	include ../includes/header
+	block article
+		.join_banner
+			.banner_title_container
+				.banner_title
+					img(src='../images/banner_title.png')
+		.join_team
+			.join_teammember
+		.join_position
+	include ../includes/foot
+	script(type="text/javascript" src="/js/layout.js")
+	script(type="text/javascript").
+		$(document).ready(function(){
+			$('#nav_join').css({
+								'background-color':'#3bbaf5',
+								'color':'#fff'});
+		})

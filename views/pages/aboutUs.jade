@@ -1,0 +1,28 @@
+extends ../layout
+block content
+	include ../includes/header
+	block article
+		.abuout_banner
+			.banner_title_container
+				.banner_title
+					img(src='../images/banner_title.png')
+		.about_company
+			.about_company_container
+				.about_conpanyBk
+				.about_companyIntr
+					.about_companyIntrImg
+					.about_companyIntrText
+						.title 关于萌趣
+						.text
+							|杭州萌趣科技有限公司成立于2014年，员工20余人，是杭州一家专业提供移动互联网 应用整天解决方案及服务的公司，主要业务范畴包括移动应用的策划、研发。 我们的出发点是用户的需求，并且考虑了市场潜力的角度，旨在为企业及产品树立 良好的视觉形象，为市场空间的拓展创造优良的竞争优势，无形中提升了企业的潜在价值。我们的出发点是用户的需求，并且考虑了市场潜力的角度，旨在为企业及产品树立 良好的视觉形象，为市场空间的拓展创造优良的竞争优势，无形中提升了企业的潜在价值。
+		.about_team
+			.about_teammember
+		.about_position
+	include ../includes/foot
+	script(type="text/javascript" src="/js/layout.js")
+	script(type="text/javascript").
+		$(document).ready(function(){
+			$('#nav_about').css({
+								'background-color':'#3bbaf5',
+								'color':'#fff'});
+		})

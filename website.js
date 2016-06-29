@@ -34,3 +34,33 @@ website.get('/',function(req,res){
 		"title":"杭州萌趣科技"
 	})
 })
+//solutions
+website.get('/solutions',function(req,res){
+	res.render('solutions',{
+		"title":"杭州萌趣科技"
+	})
+})
+//successCases
+website.get('/successCases',function(req,res){
+	res.render('successCases',{
+		"title":"杭州萌趣科技"
+	})
+})
+//cases
+website.get('/cases',function(req,res){
+	res.render('cases',{
+		"title":"杭州萌趣科技"
+	})
+})
+//aboutUs
+website.get('/aboutUs',function(req,res){
+	res.render('aboutUs',{
+		"title":"杭州萌趣科技"
+	})
+})
+//joinUs
+website.get('/joinUs',function(req,res){
+	res.render('joinUs',{
+		"title":"杭州萌趣科技"
+	})
+})

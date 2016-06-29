@@ -1,0 +1,19 @@
+extends ../layout
+block content
+	include ../includes/header
+	block article
+		.solution_banner
+			.banner_title_container
+				.banner_title
+					img(src='../images/banner_title.png')
+		.solution_team
+			.solution_teammember
+		.solution_position
+	include ../includes/foot
+	script(type="text/javascript" src="/js/layout.js")
+	script(type="text/javascript").
+		$(document).ready(function(){
+			$('#nav_solution').css({
+								'background-color':'#3bbaf5',
+								'color':'#fff'});
+		})
