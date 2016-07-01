@@ -75,11 +75,11 @@
 	$(document).on('click', '#moveRight', function(){
   		$.fn.fullpage.moveSlideLeft();
 	});
-    /*//Slide 自动轮播
+    //Slide 自动轮播
     var t;
     function autoPlay(){
         $.fn.fullpage.moveSlideRight();
         t=setTimeout(autoPlay,5000);
     }
-    setInterval(autoPlay(),5000);*/
+    setInterval(autoPlay(),5000);
 })()
