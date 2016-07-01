@@ -13,7 +13,7 @@
             }
             if(anchorLink == 'secondPage'){
                 $('.jjLogo .jjImg').animate({
-					top:'-60px'
+					top:'-20%'
 				},500,'linear');
             }
         },
@@ -31,7 +31,7 @@
             }
             if(nextIndex == 3){
                 $('.jjLogo .jjImg').animate({
-					top:'-100px'
+					top:'-65%'
 				},500,'linear');
             }
         },
@@ -76,10 +76,10 @@
   		$.fn.fullpage.moveSlideLeft();
 	});
     //Slide 自动轮播
-    var t;
+    /*var t;
     function autoPlay(){
         $.fn.fullpage.moveSlideRight();
         t=setTimeout(autoPlay,5000);
     }
-    setInterval(autoPlay(),5000);
+    setInterval(autoPlay(),5000);*/
 })()
