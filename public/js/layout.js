@@ -21,7 +21,7 @@
             //it won't scroll if the destination is the 3rd section
             if(nextIndex == 1){
                 $('.jjLogo .jjImg').animate({
-					top:'-100px'
+					top:'-65%'
 				},500,'linear');
             }
             if(nextIndex == 2){
@@ -41,7 +41,7 @@
             //first slide of the second section
             if(anchorLink == 'secondPage' && slideIndex == 0){
                 $('.jjLogo .jjImg').animate({
-					top:'-60px'
+					top:'-20%'
 				},500,'linear');
             }
 
@@ -57,7 +57,7 @@
             //leaving the first slide of the 2nd Section to the right
             if(index == 2 && slideIndex == 0){
                 $('.jjLogo .jjImg').animate({
-					top:'-100px'
+					top:'-65%'
 				},500,'linear');
             }
 
@@ -76,10 +76,9 @@
   		$.fn.fullpage.moveSlideLeft();
 	});
     //Slide 自动轮播
-    /*var t;
-    function autoPlay(){
+    var autoPlay = function(){
         $.fn.fullpage.moveSlideRight();
-        t=setTimeout(autoPlay,5000);
+        setTimeout(autoPlay,5000);
     }
-    setInterval(autoPlay(),5000);*/
+    setInterval(autoPlay(),10000);
 })()

@@ -80,7 +80,7 @@ button {
 	width: 100%;
 	height: 80px;
 	background-color: #ffffff;
-
+	box-shadow: 0 0 5px #888;
 	.container {
 		position: relative;
 		top: 0;
@@ -535,8 +535,29 @@ button {
 			text-align: left;
 			line-height: 20px;
 		}
-		img {
-			padding-right: 10px;
+		.icon1{
+			display: inline-block;
+			width: 15px;
+			height: 20px;
+			background:url('../images/phone.png') no-repeat;
+			background-size: 100%;
+			margin-right: 15px;
+		}
+		.icon2{
+			display: inline-block;
+			width: 12px;
+			height: 20px;
+			background:url('../images/addr.png') no-repeat;
+			background-size: 100%;
+			margin-right: 15px;
+		}
+		.icon3{
+			display: inline-block;
+			width:20px;
+			height: 15px;
+			background:url('../images/email.png') no-repeat;
+			background-size: 100%;
+			margin-right: 8px;
 		}
 	}
 	.content {
@@ -578,7 +599,6 @@ button {
 		color: #ffffff;
 		position: relative;
 		top: 90px;
-		padding-left: 20px;
 	}
 }
 @media (max-width: 768px) {
@@ -819,17 +839,18 @@ button {
 		left: 0;
 		margin: 0 auto;
 		width: 85%;
-		height: 52%;
+		height:70%;
 		z-index: 2;
 		ul{
 			position: relative;
 			width: 50%;
+			height: 100%;
 			margin: 0 auto;
 			display: inline-block;
 			li{
 				display: block;
-				width: 98%;
-				height: 80px;
+				width: 93%;
+				height:23%;
 				background-color: #f5f5f5;
 				margin: 5px;
 			}
@@ -855,10 +876,10 @@ button {
 }
 .footer {
 	position: relative;
-	top: 0;
+	bottom: 0px;
 	left: 0;
 	width: 100%;
-	height:15%;
+	height:110px;
 	z-index: 2;
 	background-color: #273242;
 	color: #919090;
@@ -867,48 +888,57 @@ button {
 	margin: 0 auto;
 	ul {
 		position: relative;
-		width: 25%;
-		height: 70%;
-		top: -1px;
+		width: 75px;
+		height: 78px;
+		top:10px;
 		display: inline-block;
 		li{
 			display: block;
 
 		}
 		.ph{
+			display: inline-block;
 			width: 100%;
-			height: 30%;
+			height: 26px;
 			color: #ffffff;
-			text-align: left;
-			line-height: 20px;
+			text-align: right;
+			line-height: 26px;
 			position: relative;
 			left: 0;
-			top: 2%;
-			padding-left: 3%;
+			top: 0;
+			span{
+				line-height: 26px;
+			}
 		}
 		.ad{
+			display: inline-block;
 			width: 100%;
-			height: 30%;
+			height: 26px;
 			color: #ffffff;
-			text-align: left;
-			line-height: 20px;
+			text-align: right;
+			line-height: 26px;
 			position: relative;
 			position: relative;
 			left: 0;
-			top:2%;
-			padding-left: 3%;
+			top:0;
+			span{
+				line-height: 26px;
+			}
 		}
 		.em{
+			display: inline-block;
 			width: 100%;
-			height: 30%;
+			height: 26px;
 			color: #ffffff;
-			text-align: left;
-			line-height: 20px;
+			text-align: right;
+			line-height: 26px;
 			position: relative;
 			position: relative;
 			left: 0;
-			top: 2%;
-			padding-left:3%;
+			top: 0;
+			span{
+				line-height: 26px;
+			}
 		}
 		.icon1{
 			display: inline-block;
@@ -937,41 +967,39 @@ button {
 	}
 	.content {
 		position: relative;
-		top: 5px;
-		width:70%;
-		height:70%;
-		left:-7%;
+		top: 10px;
+		width:230px;
+		height:78px;
+		left:2%;
 		margin: 0 auto;
 		text-align: left;
 		display: inline-block;
 		.phone {
-			top: 3px;
+			top: 0px;
 			font-size: 12px;
 			color: #ffffff;
 			display: inline-block;
-			width: 100%;
-			height: 30%;
-			padding-left: 14%;
-			line-height: 14px;
+			width: 230px;
+			height: 26px;
+			line-height: 26px;
 		}
 		.addr {
-			top: -2px;
+			top: 0px;
 			font-size: 12px;
 			color: #ffffff;
 			display: inline-block;
-			width: 100%;
-			height: 30%;
-			padding-left: 13%;
-			line-height: 14px;
+			width: 230px;
+			height: 26px;
+			line-height: 26px;
 		}
 		.email {
-			top: -6px;
+			top: 0px;
 			font-size: 12px;
 			color: #ffffff;
 			display: inline-block;
-			width: 100%;
-			height: 30%;
-			padding-left: 13%;
+			width: 230px;
+			height: 26px;
+			line-height: 26px;
 		}
 	}
 	.copy {
@@ -1133,6 +1161,30 @@ button {
 			width: 33%;
 			position: relative;
 			top: 55px;
+		}
+		.icon1{
+			display: inline-block;
+			width: 10px;
+			height: 15px;
+			background:url('../images/phone.png') no-repeat;
+			background-size: 100%;
+			margin-right: 15px;
+		}
+		.icon2{
+			display: inline-block;
+			width: 8px;
+			height: 12px;
+			background:url('../images/addr.png') no-repeat;
+			background-size: 100%;
+			margin-right: 15px;
+		}
+		.icon3{
+			display: inline-block;
+			width: 12px;
+			height: 9px;
+			background:url('../images/email.png') no-repeat;
+			background-size: 100%;
+			margin-right: 8px;
 		}
 	}
 	.copy {
